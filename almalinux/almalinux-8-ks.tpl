@@ -49,8 +49,8 @@ user --name=${username} --plaintext --password=${username}
 services --enabled=NetworkManager,sshd,chronyd
 
 # Repositories
-repo --name=base --baseurl=http://ftp.sakura.ad.jp/almalinux/8.6/BaseOS/x86_64/os/ --cost=100
-repo --name=appstream --baseurl=http://ftp.sakura.ad.jp/almalinux/8.6/AppStream/x86_64/os/ --cost=1000
+repo --name=base --baseurl=http://ftp.sakura.ad.jp/almalinux/8.7/BaseOS/x86_64/os/ --cost=100
+repo --name=appstream --baseurl=http://ftp.sakura.ad.jp/almalinux/8.7/AppStream/x86_64/os/ --cost=1000
 
 # SOFTWARE SELECTION
 %packages
